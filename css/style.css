@@ -180,6 +180,53 @@
     font-size: 1.5rem;
 }
 
+.featured {
+    padding: 60px 50px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #0f5132;
+}
+
+.meal-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.meal-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.meal-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.meal-card h3 {
+    margin: 15px 0 10px;
+}
+
+.meal-card button {
+    background-color: #0f5132;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.meal-card button:hover {
+    background-color: #198754;
+}
+
 /* Footer Styles */
 .footer {
     background: #008514;
